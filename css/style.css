@@ -9,12 +9,17 @@ nav {
     width: 920px;
     margin: 0 auto;
 }
+
 header nav {
     display: flex;
     justify-content: space-between;
     height: 2rem;
-    margin-top: 1rem;
     
+  
+}
+.nav-container{
+    background-color: aquamarine;
+    padding: 1rem;
 }
 
 section {
@@ -74,4 +79,47 @@ section {
 
 .bg-black{
     background-color: #23272A;
+}
+
+.row {
+    display: flex;
+    border: 1px solid green;
+}
+
+.col {
+    padding: 20px;
+    border: 1px solid yellow;
+    flex-grow: 1;
+    background-color: pink;
+}
+.col-2 {
+    flex-grow: 2;
+    background-color: lightskyblue;
+    
+}
+
+.container-green{
+    background-color: green;
+    
+}
+
+
+.bg-black .col {
+    background-color: #20B2AA;
+}
+.bg-black .col-2 {
+    background-color: #F08080;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #71DCB8;
+}
+
+.logo-footer {
+    background-color: #B6858C;
+}
+.button-footer{
+    background-color: #B6858C;
 }
